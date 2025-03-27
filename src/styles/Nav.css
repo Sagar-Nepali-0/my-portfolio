@@ -1,0 +1,24 @@
+.nav-bar{
+    width: 100vw;
+    height: 10vh;
+    background-color: black; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    gap: 24px;
+    border-bottom: 4px solid #3498db;
+}
+
+.nav-bar .link-home, .link-about, .link-projects, .link-contact{
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-bar .link-home:hover, 
+.nav-bar .link-about:hover, 
+.nav-bar .link-projects:hover, 
+.nav-bar .link-contact:hover {
+  color: blue; 
+}

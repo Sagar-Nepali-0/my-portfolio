@@ -1,12 +1,15 @@
-import Nav from "../components/Nav";
+import { Link } from 'react-router-dom'
 import '../styles/Home.css'
 import '../styles/main.css'
-import background from '../assets/Images/background.jpg'
 
 function Home(){
     return(
         <>
-        <img class="background-img" src={background} alt="" />
+        <div class="home-content">
+            <h1 class="title">Welcome</h1>
+            <h2 class="sub-title">to my <Link to="/about">portfolio</Link>.</h2>
+
+        </div>
         </>
     );
 }
